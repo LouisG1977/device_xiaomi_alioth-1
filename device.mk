@@ -46,6 +46,10 @@ PRODUCT_COPY_FILES += \
 # Dolby Support
 TARGET_USES_MIUI_DOLBY := true
 
+# Dolby
+PRODUCT_PACKAGES += \
+    XiaomiDolby
+
 # Dolby Config File
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/dolby/config/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml
